@@ -32,7 +32,7 @@
 						<span class="icon-bar"></span>
 					</button>
 					<a class="navbar-brand" href="<?php echo home_url(); ?>">
-						<?php bloginfo('name'); ?>
+						<?php bloginfo('name'); ?> - <?php bloginfo('description'); ?>
 					</a>
 				</div>
 
