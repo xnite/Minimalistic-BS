@@ -29,7 +29,7 @@
 					if(attempts == 3)
 					{
 						var audio = new Audio();
-						audio.src = '<?php echo get_template_directory_uri(); ?>rickroll.mp3';
+						audio.src = '<?php echo get_template_directory_uri(); ?>/rickroll.mp3';
 						audio.play();
 				
 						var image = document.getElementById('bio-avatar');
