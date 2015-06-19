@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="content">
+<div id="content" class="content">
 	<?php
 		while (have_posts()) : the_post();
 			get_template_part( 'content', get_post_format() ); 
