@@ -11,4 +11,5 @@ require_once('wp_bootstrap_navwalker.php');
 			'after_title' => '</h3>',
 		)
 	);
+	register_nav_menu( 'primary', 'Primary' );
 ?>
