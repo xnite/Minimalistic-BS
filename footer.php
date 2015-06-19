@@ -12,7 +12,7 @@
 			<!-- Latest compiled and minified JavaScript -->
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-			<script src="js/konami.js"></script>
+			<script src="<?php echo get_template_directory_uri(); ?>/js/konami.js"></script>
 			<script type="text/javascript">
 				var easter_egg = new Konami();
 				attempts = 0;
