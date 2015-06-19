@@ -11,7 +11,7 @@
 						<?php wp_link_pages(); ?>
 					</p>
 					<footer class="post-footer">
-						<div class="comments"><?php comments_popup_link( 'No Comments :\'[', '1 Comment :]', '% Comments :D' ); ?></div>
+
 						<div id="comments">
 							<?php comments_template(); ?>
 						</div>
