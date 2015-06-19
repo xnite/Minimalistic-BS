@@ -1,0 +1,136 @@
+/*Theme Name: Minimalistic BS
+ Theme URI: https://xnite.me/code/wordpress/themes/minimalistic-bs
+ Description: Minimalistic bootstrap theme.
+ Version: 1.0
+ Author: Robert Whitney &lt;xnite@xnite.me&gt;
+ Author URI: https://xnite.me/
+ Tags: bootstrap, simple, minimal, minimalistic
+ */
+ 
+/* Import Google Web Fonts */
+@import url(http://fonts.googleapis.com/css?family=Nixie+One);
+@import url(http://fonts.googleapis.com/css?family=Patua+One);
+@import url(http://fonts.googleapis.com/css?family=Lora);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+
+/* CSS Overrides */
+	.navbar
+	{
+		background-color:	#444444;
+		border:				none 0px;
+		border-radius:		0px;
+		color:				#ffffff;
+		margin:				0 0 15px 0;
+	}
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+	{
+		background-color:	#666666;
+		color:				#ffffff;
+	}
+	.navbar-default .navbar-nav>li>a
+	{
+		background-color:	#444444;
+		color:				#ffffff;
+	}
+	.navbar-default .navbar-nav>li>a:hover
+	{
+		color:				#f6f6f6;
+	}
+	.navbar-default .navbar-nav>li>a:visited
+	{
+		color:				#ffffff;
+	}
+	.navbar-default .navbar-nav>li>a:active
+	{
+		color:				#f6f6f6;
+	}
+
+	.navbar-default .navbar-brand
+	{
+		font-family:	'Nixie One', cursive;
+		font-weight:	bold;
+		color:			#ffffff;
+	}
+	body
+	{
+		font-family: 'Lora', serif;
+	}
+
+	div.content
+	{
+		background-color:#ffffff;
+		padding: 0 25px 15px 25px;
+		width:80%;
+		min-width:210px;
+		height:auto;
+		min-height:100%;
+		float:left;
+		margin:	0 0 25px 0;
+	}
+	div.sidebar
+	{
+		width:15%;
+		min-width:210px;
+		float:left;
+		margin: 0 0 25px 0;
+	}
+	div.sidebar-item
+	{
+		margin: 0 10px 0 10px;
+	}
+	div.footer
+	{
+		position:fixed;
+		left: 0px;
+		right: 0px;
+		bottom:0px;
+		height:20px;
+		line-height:18px;
+		background-color: #ebebeb;
+		-webkit-box-shadow: 0px -5px 19px 1px rgba(0,0,0,0.55);
+		-moz-box-shadow: 0px -5px 19px 1px rgba(0,0,0,0.55);
+		box-shadow: 0px -5px 19px 1px rgba(0,0,0,0.55);
+	}
+	div.footer>p {
+		font-weight: italic;
+		font-family: 'PT Sans Narrow', sans-serif;
+		
+	}
+	.bio-avatar
+	{
+		-webkit-border-radius: 100px;
+		-moz-border-radius: 100px;
+		border-radius: 100px;
+	}
+	.bio-box {
+		clear: both;
+		font-size: 14px;
+		line-height: 20px;
+		margin: 24px 0;
+		overflow: hidden;
+		padding: 18px 0px;
+		border-left: 3px solid transparent;
+		border-color:	#1693A5
+	}
+	
+	h1
+	{
+		font-family: 'Patua One', cursive;
+	}
+	
+	h2
+	{
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	
+	/* Contact info Table */
+	table
+	{
+		width:100%;
+		margin: 15px 0 15px 0;
+	}
+	table.contact-info>td
+	{
+		margin:	0 5px 0 5px;
+	}
