@@ -5,4 +5,10 @@
 			<?php the_content(); ?>
 			<?php wp_link_pages(); ?>
 		</p>
+		<footer class="post-footer">
+
+			<div id="comments">
+				<?php comments_template(); ?>
+			</div>
+		</footer>
 </div>
