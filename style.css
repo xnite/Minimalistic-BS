@@ -8,6 +8,8 @@
  */
  
 /* Import Google Web Fonts */
+@import url(http://fonts.googleapis.com/css?family=Trocchi);		/* H1 */
+
 @import url(//fonts.googleapis.com/css?family=Nixie+One);
 @import url(//fonts.googleapis.com/css?family=Patua+One);
 @import url(//fonts.googleapis.com/css?family=Lora);
@@ -116,7 +118,8 @@
 	
 	h1
 	{
-		font-family: 'Patua One', cursive;
+		font-family:	'Trocchi', serif;
+		font-size:		20px;
 	}
 	
 	h2
