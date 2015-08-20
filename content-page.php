@@ -5,4 +5,8 @@
 			<?php the_content(); ?>
 			<?php wp_link_pages(); ?>
 		</p>
+                <div id="comments">
+                	<?php echo comments_template(); ?>
+                </div>
+
 </div>

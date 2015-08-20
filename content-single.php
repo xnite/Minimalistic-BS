@@ -8,7 +8,8 @@
 		<footer class="post-footer">
 
 			<div id="comments">
-				<?php comments_template(); ?>
+				<h3>Comments</h3>
+				<?php echo get_comments(); ?>
 			</div>
 		</footer>
 </div>
