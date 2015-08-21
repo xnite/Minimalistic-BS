@@ -8,7 +8,8 @@
  */
  
 /* Import Google Web Fonts */
-@import url(http://fonts.googleapis.com/css?family=Trocchi);		/* H1 */
+@import url(http://fonts.googleapis.com/css?family=Trocchi);			/* H1 */
+@import url(http://fonts.googleapis.com/css?family=Sumana:400,700);		/* H2 */
 
 @import url(//fonts.googleapis.com/css?family=Nixie+One);
 @import url(//fonts.googleapis.com/css?family=Patua+One);
@@ -123,7 +124,7 @@
 	
 	h2
 	{
-		font-family: 'Josefin Sans', sans-serif;
+		font-family: 'Sumana', serif;
 	}
 	
 	/* Contact info Table */
