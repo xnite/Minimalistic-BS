@@ -8,7 +8,7 @@
  */
  
 /* Import Google Web Fonts */
-@import url(http://fonts.googleapis.com/css?family=Trocchi);			/* H1 */
+@import url(http://fonts.googleapis.com/css?family=Arya:400,700);		/* H1 */
 @import url(http://fonts.googleapis.com/css?family=Sumana:400,700);		/* H2 */
 
 @import url(//fonts.googleapis.com/css?family=Nixie+One);
@@ -119,7 +119,7 @@
 	
 	h1
 	{
-		font-family:	'Trocchi', serif;
+		font-family: 'Arya', sans-serif;
 	}
 	
 	h2
